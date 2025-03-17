@@ -75,18 +75,18 @@ Before you begin, ensure you have the following installed:
    git clone https://github.com/your-username/CI-CD-Pipeline-Java-Docker-K8s.git
    cd CI-CD-Pipeline-Java-Docker-K8s
 2. **Install Dependencies**:
-
+   ```bash
 Install Java-17, Maven, Git, Docker, and Minikube on your system.
 
 Set up Jenkins and install the required plugins (GitHub, Maven, JUnit, Docker, Kubernetes).
 
 3. **Configure Jenkins**:
-
+   ```bash
 Set up Jenkins jobs for GitHub Pull, Build Code, JUnit Test, Docker Build, and Deploy.
 
 Create a Jenkins pipeline to orchestrate the workflow.
 
 4. **Run the Pipeline**:
-
+   ```bash
 Trigger the Jenkins pipeline to build, test, and deploy the Java application.
 
